@@ -1,0 +1,8 @@
+---
+- name: Configure Dev Web Server
+  hosts: dev_webserver
+  force_handlers: yes
+
+# ansible-playbook --syntax-check web_dev_server.yml
+
+# ansible-playbook web_dev_server.yml
