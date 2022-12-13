@@ -2,6 +2,8 @@
 - name: Configure Dev Web Server
   hosts: dev_webserver
   force_handlers: yes
+  roles:
+    - apache.developer_configs
 
 # ansible-playbook --syntax-check web_dev_server.yml
 
